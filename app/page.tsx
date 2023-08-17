@@ -1,11 +1,11 @@
 import Navbar from "@/components/Navbar";
-// import HomeSection from "@/sections/HomeSection";
+import HeroSection from "@/sections/HeroSection";
 
 export default function Home() {
   return (
     <>
       <Navbar />
-      {/*<HomeSection />*/}
+      <HeroSection />
     </>
   );
 }
