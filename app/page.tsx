@@ -1,4 +1,6 @@
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
+
 import HeroSection from "@/sections/HeroSection";
 import AboutSection from "@/sections/AboutSection";
 import MembersSection from "@/sections/MembersSection";
@@ -12,6 +14,7 @@ export default function Home() {
       <AboutSection />
       <MembersSection />
       <ContactSection />
+      <Footer />
     </>
   );
 }
