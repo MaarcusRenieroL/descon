@@ -21,7 +21,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="fixed shadow-lg w-full h-fit bg-white">
+    <nav className="fixed shadow-lg w-full h-fit">
       <div className="flex justify-between items-center h-full w-full p-10">
         <Link href={"/"}>
           {/* <Image src={"/descon-logo.png"} alt="logo" width={100} height={100} /> */}
@@ -53,7 +53,7 @@ export default function Navbar() {
       <div
         className={
           openMenu
-            ? "fixed left-0 top-0 w-full lg:hidden bg-[#ecf0f3] p-10 h-fit ease-in duration-500"
+            ? "fixed left-0 top-0 w-full lg:hidden bg-black p-10 h-fit ease-in duration-500"
             : "fixed left-[-100%] top-0 p-10 ease-out duration-1000"
         }
       >
